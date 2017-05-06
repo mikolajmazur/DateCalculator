@@ -1,0 +1,98 @@
+Classfile /G:/semestr 6/jfk/kalkulator dat/DateCalculator/Grammar/out/CompilationClass.class
+  Last modified 2017-04-04; size 715 bytes
+  MD5 checksum 348b7987ff0b0d72d867d7f47fd24dea
+  Compiled from "CompilationClass.java"
+public final class CompilationClass
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #12.#23        // java/lang/Object."<init>":()V
+   #2 = Fieldref           #24.#25        // java/lang/System.out:Ljava/io/PrintStream;
+   #3 = Class              #26            // java/lang/StringBuilder
+   #4 = Methodref          #3.#23         // java/lang/StringBuilder."<init>":()V
+   #5 = String             #27            // Compiled result =
+   #6 = Methodref          #3.#28         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #7 = Methodref          #11.#29        // CompilationClass.execute:()D
+   #8 = Methodref          #3.#30         // java/lang/StringBuilder.append:(D)Ljava/lang/StringBuilder;
+   #9 = Methodref          #3.#31         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #10 = Methodref          #32.#33        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #11 = Class              #34            // CompilationClass
+  #12 = Class              #35            // java/lang/Object
+  #13 = Utf8               <init>
+  #14 = Utf8               ()V
+  #15 = Utf8               Code
+  #16 = Utf8               LineNumberTable
+  #17 = Utf8               main
+  #18 = Utf8               ([Ljava/lang/String;)V
+  #19 = Utf8               execute
+  #20 = Utf8               ()D
+  #21 = Utf8               SourceFile
+  #22 = Utf8               CompilationClass.java
+  #23 = NameAndType        #13:#14        // "<init>":()V
+  #24 = Class              #36            // java/lang/System
+  #25 = NameAndType        #37:#38        // out:Ljava/io/PrintStream;
+  #26 = Utf8               java/lang/StringBuilder
+  #27 = Utf8               Compiled result =
+  #28 = NameAndType        #39:#40        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #29 = NameAndType        #19:#20        // execute:()D
+  #30 = NameAndType        #39:#41        // append:(D)Ljava/lang/StringBuilder;
+  #31 = NameAndType        #42:#43        // toString:()Ljava/lang/String;
+  #32 = Class              #44            // java/io/PrintStream
+  #33 = NameAndType        #45:#46        // println:(Ljava/lang/String;)V
+  #34 = Utf8               CompilationClass
+  #35 = Utf8               java/lang/Object
+  #36 = Utf8               java/lang/System
+  #37 = Utf8               out
+  #38 = Utf8               Ljava/io/PrintStream;
+  #39 = Utf8               append
+  #40 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #41 = Utf8               (D)Ljava/lang/StringBuilder;
+  #42 = Utf8               toString
+  #43 = Utf8               ()Ljava/lang/String;
+  #44 = Utf8               java/io/PrintStream
+  #45 = Utf8               println
+  #46 = Utf8               (Ljava/lang/String;)V
+{
+  public CompilationClass();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=1, args_size=1
+         0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: new           #3                  // class java/lang/StringBuilder
+         6: dup
+         7: invokespecial #4                  // Method java/lang/StringBuilder."<init>":()V
+        10: ldc           #5                  // String Compiled result =
+        12: invokevirtual #6                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        15: invokestatic  #7                  // Method execute:()D
+        18: invokevirtual #8                  // Method java/lang/StringBuilder.append:(D)Ljava/lang/StringBuilder;
+        21: invokevirtual #9                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        24: invokevirtual #10                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        27: return
+      LineNumberTable:
+        line 4: 0
+        line 5: 27
+
+  private static double execute();
+    descriptor: ()D
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: dconst_0
+         1: dreturn
+      LineNumberTable:
+        line 8: 0
+}
+SourceFile: "CompilationClass.java"
